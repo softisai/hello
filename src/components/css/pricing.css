@@ -1,0 +1,94 @@
+/* General Layout and Styling */
+.pricing {
+    padding: 4em 1em;
+    background-color: #000000;
+    text-align: center;
+    color: #eaeaea;
+    margin-top: -250px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+  }
+  
+  .pricing-card {
+    background-color: #1a1b23;
+    padding: 2em;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+  }
+  
+  .plan-title {
+    font-size: 1.4rem;
+    color: #c0c0c0;
+    margin-bottom: 0.5em;
+  }
+  
+  .plan-price {
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0.5em 0;
+  }
+  
+  .plan-subtitle {
+    font-size: 0.9rem;
+    color: #8a8a8a;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+    color: #8a8a8a;
+  }
+  
+  .billing-info {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 1.5em;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1em;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .features li {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #eaeaea;
+    margin-bottom: 0.5em;
+  }
+  
+  .feature-icon {
+    display: inline-block;
+    width: 1.2em; /* Fixed size */
+    height: 1.2em; /* Fixed size */
+    margin-right: 0.5em;
+    color: #5e9cfc;
+  }
+  
+  @media (max-width: 900px) {
+    .pricing-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

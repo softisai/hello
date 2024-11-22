@@ -1,0 +1,115 @@
+
+.col {
+  width: 50%;
+  padding: 1em 3em;
+}
+
+.contact-section h3 {
+  text-transform: uppercase;
+  color: #747474;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.contact-section span {
+  text-transform: uppercase;
+}
+
+.contact-details p {
+  font-size: 40px;
+  line-height: 60px;
+  padding-top: 0.8em;
+}
+
+.item {
+  padding: 4em 0 0 0;
+}
+.emailId{
+  font-size: 20px;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.address {
+  padding-left: 4em;
+}
+
+input {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #747474;
+  font-size: 24px;
+  padding: 0.4em;
+  width: 100%;
+  color: #000000;
+  margin-right: 0.4em;
+}
+
+.row {
+  display: flex;
+  margin: 2em 0 !important;
+}
+
+textarea#message {
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #747474;
+  font-size: 24px;
+  padding: 0.4em;
+  width: 100%;
+  color: #0b0b0b;
+  font-family: "Neue Montreal";
+}
+
+.submit {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.submit button{
+  text-decoration: none;
+  color: #000000;
+  font-family: "Monument Extended";
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.submit button:hover{
+  color: #9b2d2d;
+}
+
+.send-icon {
+  font-size: 60px;
+}
+.contact-section{
+  margin-top: -150px;
+}
+
+@media (min-width: 900px) {
+  html,
+  body {
+    height: 100%;
+  }
+
+  .contact-section {
+    width: 100%;
+    display: flex;
+  }
+}
+
+@media (max-width: 900px) {
+  .col {
+    width: 100%;
+  }
+}
