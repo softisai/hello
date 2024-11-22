@@ -7,7 +7,7 @@ import '../css/about.css'
 import '../css/promo.css'
 import { gsap } from 'gsap';
 import gradient from '../assets/grad.png'
-import sitelogo from '../assets/site-logo.jpg'
+import sitelogo from '../assets/site-logo.png'
 import { IonIcon } from '@ionic/react';  // Replace with the actual IonIcons import
 import { ellipseSharp, closeSharp } from 'ionicons/icons';
 
