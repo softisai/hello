@@ -28,6 +28,7 @@
 
 .product-card:hover {
   transform: scale(1.03) rotateX(3deg) rotateY(3deg);
+  border: 1px solid rgb(255, 112, 112);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -48,10 +49,10 @@
 }
 
 .product-content p {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 1em;
-  color: #cccccc;
+  color: #ffffff;
 }
 
 /* CTA Buttons */
