@@ -49,6 +49,10 @@
 
 }
 
+/* .hero-des{
+  margin-top: -100;
+} */
+
 /* p#site-intro {
   margin-top: 2em;
   margin-bottom: 150px;
@@ -61,11 +65,11 @@
     flex-direction: column;
   }
 
-  /* p#site-intro {
+  p#site-intro {
     margin-top: 0;
     text-indent: 0;
     margin-bottom: 150px;
-  } */
+  }
 
   .hero-img {
     transform: rotate(-170deg);

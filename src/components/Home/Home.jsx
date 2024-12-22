@@ -6,7 +6,7 @@ import '../css/hero.css';
 import '../css/about.css'
 import '../css/promo.css'
 import { gsap } from 'gsap';
-import gradient from '../assets/grad.png'
+import gradient from '../assets/hero-bg.jpg'
 import sitelogo from '../assets/site-logo.png'
 import { IonIcon } from '@ionic/react';  // Replace with the actual IonIcons import
 import { ellipseSharp, closeSharp } from 'ionicons/icons';
@@ -114,8 +114,9 @@ const Home = () => {
         </div>
         <div className="hero-header">
           <div className="hero-col">
-            <h1>Softis AI</h1>
-            {/* <p>Where AI Meets Hardware: Redefining Simplicity.</p> */}
+            <h1>Softis AI  </h1>
+            
+            <span className="hero-des">Software Intelligence Services</span>
           </div>
         </div>
       </section>
